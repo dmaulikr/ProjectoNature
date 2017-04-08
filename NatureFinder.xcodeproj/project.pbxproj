@@ -12,10 +12,36 @@
 		442E2FD61E66025A00C6BA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442E2FD41E66025A00C6BA81 /* Main.storyboard */; };
 		442E2FD81E66025A00C6BA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442E2FD71E66025A00C6BA81 /* Assets.xcassets */; };
 		442E2FDB1E66025A00C6BA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442E2FD91E66025A00C6BA81 /* LaunchScreen.storyboard */; };
-		44D14CB31E6BD42400E1DF59 /* ViewControllerConfiguraciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D14CB21E6BD42400E1DF59 /* ViewControllerConfiguraciones.swift */; };
-		44D14CB51E6BD43D00E1DF59 /* ViewControllerTrofeos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D14CB41E6BD43D00E1DF59 /* ViewControllerTrofeos.swift */; };
-		44D14CB71E6CF0C700E1DF59 /* ViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D14CB61E6CF0C700E1DF59 /* ViewControllerX.swift */; };
+		44444ECA1E889593004F53F2 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44444EC91E889593004F53F2 /* PhotoViewController.swift */; };
+		44444ECC1E88A376004F53F2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44444ECB1E88A376004F53F2 /* CameraViewController.swift */; };
+		44444ECE1E8F5112004F53F2 /* DatosAnimalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44444ECD1E8F5112004F53F2 /* DatosAnimalesViewController.swift */; };
+		4497A60A1E8F7352005C3394 /* CapturasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A6091E8F7352005C3394 /* CapturasViewController.swift */; };
+		4497A60C1E8F7E6C005C3394 /* AnimalNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A60B1E8F7E6C005C3394 /* AnimalNSObject.swift */; };
+		4497A60F1E8F83A1005C3394 /* CapturaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A60E1E8F83A1005C3394 /* CapturaTableViewCell.swift */; };
+		4497A61B1E9065B1005C3394 /* AIRealObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A61A1E9065B1005C3394 /* AIRealObject.swift */; };
+		44A127461E8F5BA1005D5455 /* CapturasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A127451E8F5BA1005D5455 /* CapturasTableViewController.swift */; };
+		44CCBCA01E99A139009CB3CF /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CCBC9E1E99A139009CB3CF /* Realm.framework */; };
+		44CCBCA11E99A139009CB3CF /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CCBC9F1E99A139009CB3CF /* RealmSwift.framework */; };
+		44CCBCA21E99A144009CB3CF /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CCBC9E1E99A139009CB3CF /* Realm.framework */; };
+		44CCBCA31E99A144009CB3CF /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44CCBC9E1E99A139009CB3CF /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44CCBCA41E99A144009CB3CF /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CCBC9F1E99A139009CB3CF /* RealmSwift.framework */; };
+		44CCBCA51E99A144009CB3CF /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44CCBC9F1E99A139009CB3CF /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4497A6181E9063EC005C3394 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44CCBCA51E99A144009CB3CF /* RealmSwift.framework in Embed Frameworks */,
+				44CCBCA31E99A144009CB3CF /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		442E2FCD1E66025A00C6BA81 /* NatureFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,9 +51,16 @@
 		442E2FD71E66025A00C6BA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		442E2FDA1E66025A00C6BA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442E2FDC1E66025A00C6BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44D14CB21E6BD42400E1DF59 /* ViewControllerConfiguraciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerConfiguraciones.swift; sourceTree = "<group>"; };
-		44D14CB41E6BD43D00E1DF59 /* ViewControllerTrofeos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTrofeos.swift; sourceTree = "<group>"; };
-		44D14CB61E6CF0C700E1DF59 /* ViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerX.swift; path = ../ViewControllerX.swift; sourceTree = "<group>"; };
+		44444EC91E889593004F53F2 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		44444ECB1E88A376004F53F2 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		44444ECD1E8F5112004F53F2 /* DatosAnimalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosAnimalesViewController.swift; sourceTree = "<group>"; };
+		4497A6091E8F7352005C3394 /* CapturasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturasViewController.swift; sourceTree = "<group>"; };
+		4497A60B1E8F7E6C005C3394 /* AnimalNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalNSObject.swift; sourceTree = "<group>"; };
+		4497A60E1E8F83A1005C3394 /* CapturaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturaTableViewCell.swift; sourceTree = "<group>"; };
+		4497A61A1E9065B1005C3394 /* AIRealObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AIRealObject.swift; path = ../AIRealObject.swift; sourceTree = "<group>"; };
+		44A127451E8F5BA1005D5455 /* CapturasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturasTableViewController.swift; sourceTree = "<group>"; };
+		44CCBC9E1E99A139009CB3CF /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		44CCBC9F1E99A139009CB3CF /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CCBCA21E99A144009CB3CF /* Realm.framework in Frameworks */,
+				44CCBCA11E99A139009CB3CF /* RealmSwift.framework in Frameworks */,
+				44CCBCA41E99A144009CB3CF /* RealmSwift.framework in Frameworks */,
+				44CCBCA01E99A139009CB3CF /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,17 +97,40 @@
 		442E2FCF1E66025A00C6BA81 /* NatureFinder */ = {
 			isa = PBXGroup;
 			children = (
+				44CF99061E91925000FFF3F3 /* AQUI SE HACE TODO */,
+				4497A60D1E8F7F0D005C3394 /* ViewControllers */,
 				442E2FD01E66025A00C6BA81 /* AppDelegate.swift */,
 				442E2FD21E66025A00C6BA81 /* ViewController.swift */,
-				44D14CB61E6CF0C700E1DF59 /* ViewControllerX.swift */,
-				44D14CB41E6BD43D00E1DF59 /* ViewControllerTrofeos.swift */,
-				44D14CB21E6BD42400E1DF59 /* ViewControllerConfiguraciones.swift */,
+				4497A60B1E8F7E6C005C3394 /* AnimalNSObject.swift */,
+				4497A61A1E9065B1005C3394 /* AIRealObject.swift */,
 				442E2FD41E66025A00C6BA81 /* Main.storyboard */,
 				442E2FD71E66025A00C6BA81 /* Assets.xcassets */,
 				442E2FD91E66025A00C6BA81 /* LaunchScreen.storyboard */,
 				442E2FDC1E66025A00C6BA81 /* Info.plist */,
+				44CCBC9E1E99A139009CB3CF /* Realm.framework */,
+				44CCBC9F1E99A139009CB3CF /* RealmSwift.framework */,
 			);
 			path = NatureFinder;
+			sourceTree = "<group>";
+		};
+		4497A60D1E8F7F0D005C3394 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44444EC91E889593004F53F2 /* PhotoViewController.swift */,
+				44444ECB1E88A376004F53F2 /* CameraViewController.swift */,
+				4497A6091E8F7352005C3394 /* CapturasViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44CF99061E91925000FFF3F3 /* AQUI SE HACE TODO */ = {
+			isa = PBXGroup;
+			children = (
+				44444ECD1E8F5112004F53F2 /* DatosAnimalesViewController.swift */,
+				4497A60E1E8F83A1005C3394 /* CapturaTableViewCell.swift */,
+				44A127451E8F5BA1005D5455 /* CapturasTableViewController.swift */,
+			);
+			name = "AQUI SE HACE TODO";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +143,8 @@
 				442E2FC91E66025A00C6BA81 /* Sources */,
 				442E2FCA1E66025A00C6BA81 /* Frameworks */,
 				442E2FCB1E66025A00C6BA81 /* Resources */,
+				4497A6181E9063EC005C3394 /* Embed Frameworks */,
+				4497A6191E9064A9005C3394 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -100,7 +162,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Donato Alfonso Tovar De la Herran";
 				TargetAttributes = {
 					442E2FCC1E66025A00C6BA81 = {
@@ -141,16 +203,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4497A6191E9064A9005C3394 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		442E2FC91E66025A00C6BA81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44444ECE1E8F5112004F53F2 /* DatosAnimalesViewController.swift in Sources */,
+				4497A60A1E8F7352005C3394 /* CapturasViewController.swift in Sources */,
+				4497A61B1E9065B1005C3394 /* AIRealObject.swift in Sources */,
 				442E2FD31E66025A00C6BA81 /* ViewController.swift in Sources */,
-				44D14CB71E6CF0C700E1DF59 /* ViewControllerX.swift in Sources */,
-				44D14CB31E6BD42400E1DF59 /* ViewControllerConfiguraciones.swift in Sources */,
+				44A127461E8F5BA1005D5455 /* CapturasTableViewController.swift in Sources */,
+				4497A60F1E8F83A1005C3394 /* CapturaTableViewCell.swift in Sources */,
 				442E2FD11E66025A00C6BA81 /* AppDelegate.swift in Sources */,
-				44D14CB51E6BD43D00E1DF59 /* ViewControllerTrofeos.swift in Sources */,
+				44444ECC1E88A376004F53F2 /* CameraViewController.swift in Sources */,
+				4497A60C1E8F7E6C005C3394 /* AnimalNSObject.swift in Sources */,
+				44444ECA1E889593004F53F2 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +305,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -263,6 +347,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -272,6 +357,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z838L998Z3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NatureFinder",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NatureFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Donato-Tovar.NatureFinder";
@@ -285,6 +375,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z838L998Z3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NatureFinder",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NatureFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Donato-Tovar.NatureFinder";
