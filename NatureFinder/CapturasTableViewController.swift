@@ -17,8 +17,6 @@ class CapturasTableViewController: UITableViewController{
     var allAnimals = [AnimalRealm]()
     var selectedAnimal: AnimalRealm!
     
-    let realm:Realm = try! Realm()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.delegate = self
@@ -61,7 +59,6 @@ class CapturasTableViewController: UITableViewController{
         let realm = try! Realm(fileURL: NSURL(fileURLWithPath: pathToFile) as URL)
         
         let pups = realm.objects(AnimalRealm.self)
-        print("\(pups[pups.count-1])")
         
         for animal in pups {
             nombreAnimal.append(animal.nombre)
@@ -71,9 +68,6 @@ class CapturasTableViewController: UITableViewController{
             
             tableView.reloadData()
         }
-        
-        print("\(allAnimals[0].getNombre())")
-
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -91,9 +85,14 @@ class CapturasTableViewController: UITableViewController{
     }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
+        let realmPath = documentsPath.strings(byAppendingPaths: ["AnimalRealm.Realm"])
+        let pathToFile = realmPath[0]
+        
+        let realm = try! Realm(fileURL: NSURL(fileURLWithPath: pathToFile) as URL)
         if editingStyle == .delete{
             try! realm.write {
-                realm.delete(allAnimals[(indexPath.row)])
+                realm.delete(allAnimals[indexPath.row])
             }
             allAnimals.remove(at: indexPath.row)
             tableView.reloadData()
