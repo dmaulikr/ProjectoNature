@@ -13,12 +13,22 @@ import AVFoundation
 class CameraViewController: UIViewController {
     
     @IBOutlet weak var imagenTomada: UIImageView!
+    @IBOutlet weak var labelAnimal: UILabel!
     
     var imagen: UIImage!
+    var plAnimal: String!
+    var plDieta: String!
+    var plHabitat: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imagenTomada.image = imagen
+        labelAnimal.text = "Are These Animals The Same?"
+//        if (plAnimal == ""){
+//            labelAnimal.text = "No Animal Found, Try Taking Another Picture"
+//        }else{
+//            labelAnimal.text = "Are These Animals The Same?"
+//        }
         // Do any additional setup after loading the view.
     }
 
@@ -31,6 +41,9 @@ class CameraViewController: UIViewController {
         if segue.identifier == "datosAnimales" {
             let vistaInfo = segue.destination as! DatosAnimalesViewController
             vistaInfo.imagen = imagenTomada.image! as UIImage
+            vistaInfo.pliAnimal = plAnimal
+            vistaInfo.pliDieta = plDieta
+            vistaInfo.pliHabitat = plHabitat
         }
     }
     

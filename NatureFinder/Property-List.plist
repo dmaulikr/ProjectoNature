@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>habitat</key>
+		<string>Africa</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Meerkat</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Africa</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Lion</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rainforest</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Squirrel</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Southern Asia</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Snow Leopard</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forests, plains and mountains</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Dog</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forest and mountains</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Red Panda</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forest, desert, freshwater and farms</string>
+		<key>dieta</key>
+		<string>Omnivore</string>
+		<key>animal</key>
+		<string>Raccoon</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Southern Asia</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Tiger</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Southern Asia</string>
+		<key>dieta</key>
+		<string>Omnivore</string>
+		<key>animal</key>
+		<string>Monkey</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Mountains</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Wolf</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>North America</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Eagle</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>South America</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Macaw</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Farms</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Chicken</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Urban areas and mountains</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Cat</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forest and rain forest</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Peacock</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forest</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Deer</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>North America</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Puma</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Africa</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Elephant</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Savanna</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Giraffe</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Lakes, rivers and lagoons</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Platypus</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Swamps and rivers</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Crocodile</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Antartica</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Penguin</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Ocean</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Dolphin</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Plains</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Horse</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rocky Ocean</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Lobster</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Plains</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Cow</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rocky ocean</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Lobster</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Ponds, rivers, swamps and forests</string>
+		<key>dieta</key>
+		<string>Omnivore</string>
+		<key>animal</key>
+		<string>Duck</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Meadows, forests and grasslands</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Rabbit</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Pastures, fields and marshes</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Turkey</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Swamps, forests and shrublands</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Pig</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Deserts, forests and prairies</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Snake</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Ocean</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Shark</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Mountains, woodlands and forests</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Bear</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Grasslands</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Prairie dog</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rocky ocean</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Octopus</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Natural spring waters</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Turtle</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Asia</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Panda</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Deserts, sand dunes and steppes</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Hamster</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Southern Asia</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Snow Leopard</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rain forest</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Jaguar</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Sandy islands, swamps and tidal flats</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Flamingos</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Savannas and rain forests</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Capybara</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Grasslands, savanna and mountains</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Antelopes</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Desert</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Meerkat</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Grasslands, savannas and woodlands</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Zebra</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Mountains, desert and tundra</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Goat</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Grasslands, taiga and rainforest</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Boar</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rainforest</string>
+		<key>dieta</key>
+		<string>Omnivore</string>
+		<key>animal</key>
+		<string>Gorilla</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rainforest</string>
+		<key>dieta</key>
+		<string>Omnivore</string>
+		<key>animal</key>
+		<string>Baboon</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Corals</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Crab</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Deep sea and lakes</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Jellyfish</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Deep sea</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Killer Whale</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Deep sea</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Blue whale</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rainforests and plains</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Cobra</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Arctic</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Seel</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Arctic</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Sea Lion</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Savannas</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Rhinoceros</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rivers, swamps and lakes</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Hippopotamus</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Savanns</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Hyena</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Grasslands</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Mouse</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forest, savanna, mountains and grasslands</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Guinea Pig</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Lakes, rivers and wetlands</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Otter</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forests and grasslands</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Fox</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Grasslands</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Bull</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Mountains</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Sheep</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rivers, swamps and lakes</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Frog</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forest</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Owl</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Arctic</string>
+		<key>dieta</key>
+		<string>Carnivores</string>
+		<key>animal</key>
+		<string>Warlous</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rivers, swamps and lakes</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Hippopotamus</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rainforest</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Lemur</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Woodlands</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Koala</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rivers, swamps and lakes</string>
+		<key>dieta</key>
+		<string>Herbivores</string>
+		<key>animal</key>
+		<string>Hippopotamus</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Tropical forests</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Ant</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Five spcecific islands</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Komodo Dragon</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Australia Island State of Tasmania</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Tasmanian devil</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Tropical rainforests</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Okapi</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Grassy plains</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Kangaroo</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Plains</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Ferret</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Plains</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Hedgehog</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forests, deserts and foothills</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Vulture</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Woodfields and plains</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Possum</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Deserts, forests, prairies, marshes and rocky areas</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Lizard</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Rainforest</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Iguana</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Urban areas</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Pidgeon</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Desert</string>
+		<key>dieta</key>
+		<string>Carnivores</string>
+		<key>animal</key>
+		<string>Gecko</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Forests, sand dunes and snowy tussocks</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Kiwi</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Arctic</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Polar Bear</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Beaches and costs</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Pelican</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Beaches and costs</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Seagull</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Caves and forests</string>
+		<key>dieta</key>
+		<string>Omnivore</string>
+		<key>animal</key>
+		<string>Bat</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Tropical rainforests</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Chameleon</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Tropical rainforests</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Macaw</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Coral and costs</string>
+		<key>dieta</key>
+		<string>Carnivore</string>
+		<key>animal</key>
+		<string>Starfish</string>
+	</dict>
+	<dict>
+		<key>habitat</key>
+		<string>Plains and grasslands</string>
+		<key>dieta</key>
+		<string>Herbivore</string>
+		<key>animal</key>
+		<string>Buffalo</string>
+	</dict>
+</array>
+</plist>

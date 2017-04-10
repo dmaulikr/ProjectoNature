@@ -14,6 +14,10 @@ import RealmSwift
 class DatosAnimalesViewController: UIViewController {
     
     var imagen: UIImage!
+    var pliAnimal: String!
+    var pliDieta: String!
+    var pliHabitat: String!
+
     
     @IBOutlet weak var imagenFinal: UIImageView!
     @IBOutlet weak var lbName: UILabel!
@@ -23,9 +27,9 @@ class DatosAnimalesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         imagenFinal.image = imagen
-        lbName.text = "Pinguino"
-        lbDiet.text = "Pez"
-        lbHabitat.text = "Polo Sur"
+        lbName.text = pliAnimal
+        lbDiet.text = pliDieta
+        lbHabitat.text = pliHabitat
         // Do any additional setup after loading the view.
     }
     
