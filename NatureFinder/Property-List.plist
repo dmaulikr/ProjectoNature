@@ -3,762 +3,892 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/meerkat.jpg</string>
 		<key>habitat</key>
 		<string>Africa</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Insects</string>
 		<key>animal</key>
 		<string>Meerkat</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/lion.jpg</string>
 		<key>habitat</key>
 		<string>Africa</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Lion</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/squirrel.jpg</string>
 		<key>habitat</key>
 		<string>Rainforest</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Nuts</string>
 		<key>animal</key>
 		<string>Squirrel</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/snow-leopard.jpg</string>
 		<key>habitat</key>
 		<string>Southern Asia</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Snow Leopard</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/dog.jpg</string>
 		<key>habitat</key>
 		<string>Forests, plains and mountains</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Dog</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/redpanda.jpg</string>
 		<key>habitat</key>
 		<string>Forest and mountains</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants and Bamboo</string>
 		<key>animal</key>
 		<string>Red Panda</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/raccoon.jpg</string>
 		<key>habitat</key>
 		<string>Forest, desert, freshwater and farms</string>
 		<key>dieta</key>
-		<string>Omnivore</string>
+		<string>Meat and Plants</string>
 		<key>animal</key>
 		<string>Raccoon</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/tiger.jpg</string>
 		<key>habitat</key>
 		<string>Southern Asia</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Tiger</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/monkey.jpg</string>
 		<key>habitat</key>
 		<string>Southern Asia</string>
 		<key>dieta</key>
-		<string>Omnivore</string>
+		<string>Fruit and Insects</string>
 		<key>animal</key>
 		<string>Monkey</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/wolf.jpg</string>
 		<key>habitat</key>
 		<string>Mountains</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Wolf</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/eagles.jpg</string>
 		<key>habitat</key>
 		<string>North America</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat and Fish</string>
 		<key>animal</key>
 		<string>Eagle</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/macaw.jpg</string>
 		<key>habitat</key>
 		<string>South America</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Fruit</string>
 		<key>animal</key>
 		<string>Macaw</string>
 	</dict>
 	<dict>
+		<key>New item</key>
+		<string>http://goindigo.mx/images/animales/chicken.jpg</string>
 		<key>habitat</key>
 		<string>Farms</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Seeds</string>
 		<key>animal</key>
 		<string>Chicken</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/cat.jpg</string>
 		<key>habitat</key>
 		<string>Urban areas and mountains</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat and Fish</string>
 		<key>animal</key>
 		<string>Cat</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/peacock.jpg</string>
 		<key>habitat</key>
 		<string>Forest and rain forest</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Insects</string>
 		<key>animal</key>
 		<string>Peacock</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/deer.jpg</string>
 		<key>habitat</key>
 		<string>Forest</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Deer</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/cougar.jpg</string>
 		<key>habitat</key>
 		<string>North America</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
-		<string>Puma</string>
+		<string>Cougar</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/elephant.jpg</string>
 		<key>habitat</key>
 		<string>Africa</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants and Fruit</string>
 		<key>animal</key>
 		<string>Elephant</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/giraffe.jpg</string>
 		<key>habitat</key>
 		<string>Savanna</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Giraffe</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/platypus.jpg</string>
 		<key>habitat</key>
 		<string>Lakes, rivers and lagoons</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish</string>
 		<key>animal</key>
 		<string>Platypus</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/crocodile.jpg</string>
 		<key>habitat</key>
 		<string>Swamps and rivers</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat and Fish</string>
 		<key>animal</key>
 		<string>Crocodile</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/penguins.jpg</string>
 		<key>habitat</key>
 		<string>Antartica</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish</string>
 		<key>animal</key>
 		<string>Penguin</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/dolphin.jpg</string>
 		<key>habitat</key>
 		<string>Ocean</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish</string>
 		<key>animal</key>
 		<string>Dolphin</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/horse.jpg</string>
 		<key>habitat</key>
 		<string>Plains</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Horse</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/lobster.jpg</string>
 		<key>habitat</key>
 		<string>Rocky Ocean</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Plankton and Algae</string>
 		<key>animal</key>
 		<string>Lobster</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/cow.jpg</string>
 		<key>habitat</key>
 		<string>Plains</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Cow</string>
 	</dict>
 	<dict>
-		<key>habitat</key>
-		<string>Rocky ocean</string>
-		<key>dieta</key>
-		<string>Herbivore</string>
-		<key>animal</key>
-		<string>Lobster</string>
-	</dict>
-	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/duck.jpg</string>
 		<key>habitat</key>
 		<string>Ponds, rivers, swamps and forests</string>
 		<key>dieta</key>
-		<string>Omnivore</string>
+		<string>Fish, Insects and Seeds</string>
 		<key>animal</key>
 		<string>Duck</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/rabbit.jpg</string>
 		<key>habitat</key>
 		<string>Meadows, forests and grasslands</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Rabbit</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/turkey.jpg</string>
 		<key>habitat</key>
 		<string>Pastures, fields and marshes</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Seeds</string>
 		<key>animal</key>
 		<string>Turkey</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/pig.jpg</string>
 		<key>habitat</key>
 		<string>Swamps, forests and shrublands</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat and Plants</string>
 		<key>animal</key>
 		<string>Pig</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/snake.jpg</string>
 		<key>habitat</key>
 		<string>Deserts, forests and prairies</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Snake</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/shark.jpg</string>
 		<key>habitat</key>
 		<string>Ocean</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish</string>
 		<key>animal</key>
 		<string>Shark</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/bear.jpg</string>
 		<key>habitat</key>
 		<string>Mountains, woodlands and forests</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Bear</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/prairie-dog.jpg</string>
 		<key>habitat</key>
 		<string>Grasslands</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Roots and Seeds</string>
 		<key>animal</key>
 		<string>Prairie dog</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/octopus.jpg</string>
 		<key>habitat</key>
 		<string>Rocky ocean</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish</string>
 		<key>animal</key>
 		<string>Octopus</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/turtle.jpg</string>
 		<key>habitat</key>
 		<string>Natural spring waters</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Algae and Squid</string>
 		<key>animal</key>
 		<string>Turtle</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/panda.jpg</string>
 		<key>habitat</key>
 		<string>Asia</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Bamboo and Roots</string>
 		<key>animal</key>
 		<string>Panda</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/hamster.jpg</string>
 		<key>habitat</key>
 		<string>Deserts, sand dunes and steppes</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Seeds</string>
 		<key>animal</key>
 		<string>Hamster</string>
 	</dict>
 	<dict>
-		<key>habitat</key>
-		<string>Southern Asia</string>
-		<key>dieta</key>
-		<string>Carnivore</string>
-		<key>animal</key>
-		<string>Snow Leopard</string>
-	</dict>
-	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/jaguar.jpg</string>
 		<key>habitat</key>
 		<string>Rain forest</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Jaguar</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/flamingo.jpg</string>
 		<key>habitat</key>
 		<string>Sandy islands, swamps and tidal flats</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Crustacean and Algae</string>
 		<key>animal</key>
-		<string>Flamingos</string>
+		<string>Flamingo</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/capybara.jpg</string>
 		<key>habitat</key>
 		<string>Savannas and rain forests</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants and Roots</string>
 		<key>animal</key>
 		<string>Capybara</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/antelope.jpg</string>
 		<key>habitat</key>
 		<string>Grasslands, savanna and mountains</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
-		<string>Antelopes</string>
+		<string>Antelope</string>
 	</dict>
 	<dict>
-		<key>habitat</key>
-		<string>Desert</string>
-		<key>dieta</key>
-		<string>Carnivore</string>
-		<key>animal</key>
-		<string>Meerkat</string>
-	</dict>
-	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/zebra.jpg</string>
 		<key>habitat</key>
 		<string>Grasslands, savannas and woodlands</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Zebra</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/goat.jpg</string>
 		<key>habitat</key>
 		<string>Mountains, desert and tundra</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Goat</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/boar.jpg</string>
 		<key>habitat</key>
 		<string>Grasslands, taiga and rainforest</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat and Plants</string>
 		<key>animal</key>
 		<string>Boar</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/gorilla.jpg</string>
 		<key>habitat</key>
 		<string>Rainforest</string>
 		<key>dieta</key>
-		<string>Omnivore</string>
+		<string>Insects, Fruit and Seeds</string>
 		<key>animal</key>
 		<string>Gorilla</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/baboon.jpg</string>
 		<key>habitat</key>
 		<string>Rainforest</string>
 		<key>dieta</key>
-		<string>Omnivore</string>
+		<string>Meat, Insects and Fruit</string>
 		<key>animal</key>
 		<string>Baboon</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/crab.jpg</string>
 		<key>habitat</key>
 		<string>Corals</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Plankton</string>
 		<key>animal</key>
 		<string>Crab</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/jellyfish.jpg</string>
 		<key>habitat</key>
 		<string>Deep sea and lakes</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish and Plankton</string>
 		<key>animal</key>
 		<string>Jellyfish</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/orca.jpg</string>
 		<key>habitat</key>
 		<string>Deep sea</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish</string>
 		<key>animal</key>
-		<string>Killer Whale</string>
+		<string>Orca</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/whale.jpg</string>
 		<key>habitat</key>
 		<string>Deep sea</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Krill</string>
 		<key>animal</key>
 		<string>Blue whale</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/cobra.jpg</string>
 		<key>habitat</key>
 		<string>Rainforests and plains</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Cobra</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/seal.jpg</string>
 		<key>habitat</key>
 		<string>Arctic</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish</string>
 		<key>animal</key>
-		<string>Seel</string>
+		<string>Seal</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/sea-lion.jpg</string>
 		<key>habitat</key>
 		<string>Arctic</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish</string>
 		<key>animal</key>
 		<string>Sea Lion</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/rhino.jpg</string>
 		<key>habitat</key>
 		<string>Savannas</string>
 		<key>dieta</key>
-		<string>Herbivores</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Rhinoceros</string>
 	</dict>
 	<dict>
-		<key>habitat</key>
-		<string>Rivers, swamps and lakes</string>
-		<key>dieta</key>
-		<string>Herbivores</string>
-		<key>animal</key>
-		<string>Hippopotamus</string>
-	</dict>
-	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/hyena.jpg</string>
 		<key>habitat</key>
 		<string>Savanns</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Hyena</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/mouse.jpg</string>
 		<key>habitat</key>
 		<string>Grasslands</string>
 		<key>dieta</key>
-		<string>Herbivores</string>
+		<string>Seeds and Roots</string>
 		<key>animal</key>
 		<string>Mouse</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/guinea-pig.jpg</string>
 		<key>habitat</key>
 		<string>Forest, savanna, mountains and grasslands</string>
 		<key>dieta</key>
-		<string>Herbivores</string>
+		<string>Seeds and Plants</string>
 		<key>animal</key>
 		<string>Guinea Pig</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/otter.jpg</string>
 		<key>habitat</key>
 		<string>Lakes, rivers and wetlands</string>
 		<key>dieta</key>
-		<string>Herbivores</string>
+		<string>Crustaceans and Fish</string>
 		<key>animal</key>
 		<string>Otter</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/fox.jpg</string>
 		<key>habitat</key>
 		<string>Forests and grasslands</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Fox</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/bull.jpg</string>
 		<key>habitat</key>
 		<string>Grasslands</string>
 		<key>dieta</key>
-		<string>Herbivores</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Bull</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/sheep.jpg</string>
 		<key>habitat</key>
 		<string>Mountains</string>
 		<key>dieta</key>
-		<string>Herbivores</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Sheep</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/frog.jpg</string>
 		<key>habitat</key>
 		<string>Rivers, swamps and lakes</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Insects</string>
 		<key>animal</key>
 		<string>Frog</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/owl.jpg</string>
 		<key>habitat</key>
 		<string>Forest</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Owl</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/walrus.jpg</string>
 		<key>habitat</key>
 		<string>Arctic</string>
 		<key>dieta</key>
-		<string>Carnivores</string>
+		<string>Crustacean and Algae</string>
 		<key>animal</key>
-		<string>Warlous</string>
+		<string>Warlus</string>
 	</dict>
 	<dict>
-		<key>habitat</key>
-		<string>Rivers, swamps and lakes</string>
-		<key>dieta</key>
-		<string>Herbivores</string>
-		<key>animal</key>
-		<string>Hippopotamus</string>
-	</dict>
-	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/lemur.jpg</string>
 		<key>habitat</key>
 		<string>Rainforest</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Fruit and Plants</string>
 		<key>animal</key>
 		<string>Lemur</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/koala.jpg</string>
 		<key>habitat</key>
 		<string>Woodlands</string>
 		<key>dieta</key>
-		<string>Herbivores</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Koala</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/hippo.jpg</string>
 		<key>habitat</key>
 		<string>Rivers, swamps and lakes</string>
 		<key>dieta</key>
-		<string>Herbivores</string>
+		<string>Plants and Algae</string>
 		<key>animal</key>
 		<string>Hippopotamus</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/ant.jpg</string>
 		<key>habitat</key>
 		<string>Tropical forests</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Insects and Seeds</string>
 		<key>animal</key>
 		<string>Ant</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/komodo-dragon.jpg</string>
 		<key>habitat</key>
 		<string>Five spcecific islands</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Komodo Dragon</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/tasmanian-devil.jpg</string>
 		<key>habitat</key>
 		<string>Australia Island State of Tasmania</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
-		<string>Tasmanian devil</string>
+		<string>Tasmanian Devil</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/okapi.jpg</string>
 		<key>habitat</key>
 		<string>Tropical rainforests</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Seeds, Roots and Plants</string>
 		<key>animal</key>
 		<string>Okapi</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/kangaroo.jpg</string>
 		<key>habitat</key>
 		<string>Grassy plains</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Kangaroo</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/ferret.jpg</string>
 		<key>habitat</key>
 		<string>Plains</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Insects and Plants</string>
 		<key>animal</key>
 		<string>Ferret</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/hedgehog.jpg</string>
 		<key>habitat</key>
 		<string>Plains</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Insects</string>
 		<key>animal</key>
 		<string>Hedgehog</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/vulture.jpg</string>
 		<key>habitat</key>
 		<string>Forests, deserts and foothills</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat</string>
 		<key>animal</key>
 		<string>Vulture</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/possum.jpg</string>
 		<key>habitat</key>
 		<string>Woodfields and plains</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Insects</string>
 		<key>animal</key>
 		<string>Possum</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/lizard.jpg</string>
 		<key>habitat</key>
 		<string>Deserts, forests, prairies, marshes and rocky areas</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Insects</string>
 		<key>animal</key>
 		<string>Lizard</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/iguana.jpg</string>
 		<key>habitat</key>
 		<string>Rainforest</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Insects</string>
 		<key>animal</key>
 		<string>Iguana</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/pigeon.jpg</string>
 		<key>habitat</key>
 		<string>Urban areas</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Seeds and Insects</string>
 		<key>animal</key>
 		<string>Pidgeon</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/gecko.jpg</string>
 		<key>habitat</key>
 		<string>Desert</string>
 		<key>dieta</key>
-		<string>Carnivores</string>
+		<string>Insects</string>
 		<key>animal</key>
 		<string>Gecko</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/kiwi.jpg</string>
 		<key>habitat</key>
 		<string>Forests, sand dunes and snowy tussocks</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Seeds and Insects</string>
 		<key>animal</key>
 		<string>Kiwi</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/polar-bear.jpg</string>
 		<key>habitat</key>
 		<string>Arctic</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Meat and Fish</string>
 		<key>animal</key>
 		<string>Polar Bear</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/pelican.jpg</string>
 		<key>habitat</key>
 		<string>Beaches and costs</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish</string>
 		<key>animal</key>
 		<string>Pelican</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/seagull.jpg</string>
 		<key>habitat</key>
 		<string>Beaches and costs</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Insects and Fish</string>
 		<key>animal</key>
 		<string>Seagull</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/bat.jpg</string>
 		<key>habitat</key>
 		<string>Caves and forests</string>
 		<key>dieta</key>
-		<string>Omnivore</string>
+		<string>Fruit and Insects</string>
 		<key>animal</key>
 		<string>Bat</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/chameleon.jpg</string>
 		<key>habitat</key>
 		<string>Tropical rainforests</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Insects</string>
 		<key>animal</key>
 		<string>Chameleon</string>
 	</dict>
 	<dict>
-		<key>habitat</key>
-		<string>Tropical rainforests</string>
-		<key>dieta</key>
-		<string>Herbivore</string>
-		<key>animal</key>
-		<string>Macaw</string>
-	</dict>
-	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/starfish.jpg</string>
 		<key>habitat</key>
 		<string>Coral and costs</string>
 		<key>dieta</key>
-		<string>Carnivore</string>
+		<string>Fish and Plankton</string>
 		<key>animal</key>
 		<string>Starfish</string>
 	</dict>
 	<dict>
+		<key>url</key>
+		<string>http://goindigo.mx/images/animales/buffalo.jpg</string>
 		<key>habitat</key>
 		<string>Plains and grasslands</string>
 		<key>dieta</key>
-		<string>Herbivore</string>
+		<string>Plants</string>
 		<key>animal</key>
 		<string>Buffalo</string>
 	</dict>

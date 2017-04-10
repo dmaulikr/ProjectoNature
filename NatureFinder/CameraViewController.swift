@@ -14,21 +14,19 @@ class CameraViewController: UIViewController {
     
     @IBOutlet weak var imagenTomada: UIImageView!
     @IBOutlet weak var labelAnimal: UILabel!
+    @IBOutlet weak var imagenUrl: UIImageView!
     
     var imagen: UIImage!
     var plAnimal: String!
     var plDieta: String!
     var plHabitat: String!
+    var plUrlImagen: UIImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imagenTomada.image = imagen
         labelAnimal.text = "Are These Animals The Same?"
-//        if (plAnimal == ""){
-//            labelAnimal.text = "No Animal Found, Try Taking Another Picture"
-//        }else{
-//            labelAnimal.text = "Are These Animals The Same?"
-//        }
+        imagenUrl.image = plUrlImagen
         // Do any additional setup after loading the view.
     }
 
@@ -46,10 +44,8 @@ class CameraViewController: UIViewController {
             vistaInfo.pliHabitat = plHabitat
         }
     }
-    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return UIInterfaceOrientationMask.portrait
-        //<==================== OJO QUE TE AUTOCOMPLETE PARA QUE SELECCIONES PORTRAIT
     }
     
     override var shouldAutorotate: Bool {

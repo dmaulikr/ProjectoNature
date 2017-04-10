@@ -16,11 +16,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     var pAnimal: String!
     var pDieta: String!
     var pHabitat: String!
+    var pUrlImagen: UIImage!
     
+    @IBOutlet weak var spiner: UIActivityIndicatorView!
+    @IBOutlet weak var imagenInstr: UIImageView!
     @IBOutlet weak var camara: UIButton!
     @IBOutlet weak var imagenEscondida: UIImageView!
     
-    //let imagePicker = UIImagePickerController()
     let session = URLSession.shared
     
     var arrDiccionaios: NSArray!
@@ -34,6 +36,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         imagenEscondida.isHidden = true
         let filepath = Bundle.main.path(forResource: "Property-List", ofType: "plist")
         let items = NSArray(contentsOfFile: filepath!) as! [[String:AnyObject]]
+        spiner.hidesWhenStopped = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -63,14 +66,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "pasaFoto"){
             let vistaInfo = segue.destination as! CameraViewController
-            print(self.pAnimal)
-            print("HOLA")
-            print(self.pDieta)
-            print(self.pHabitat)
             vistaInfo.imagen = imagenEscondida.image! as UIImage
             vistaInfo.plAnimal = pAnimal
             vistaInfo.plDieta = pDieta
             vistaInfo.plHabitat = pHabitat
+            vistaInfo.plUrlImagen = pUrlImagen
         }
     }
     
@@ -99,7 +99,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
 }
 
-
 /// Image processing
 extension ViewController {
     
@@ -115,6 +114,8 @@ extension ViewController {
             // Use SwiftyJSON to parse results
             let json = JSON(data: dataToParse)
             let errorObj: JSON = json["error"]
+            
+            self.spiner.stopAnimating()
             
             // Check for errors
             if (errorObj.dictionaryValue != [:]) {
@@ -134,9 +135,11 @@ extension ViewController {
                 var foundAnimalD: String? = nil
                 var foundAnimalH: String? = nil
                 var foundAnimalN: String? = nil
+                var foundAnimalU: String? = nil
                 self.pAnimal = nil
                 self.pDieta = nil
                 self.pHabitat = nil
+                self.pUrlImagen = nil
                 var encontrar = false
                 if numLabels > 0 {
                     for index in 0..<numLabels {
@@ -150,6 +153,7 @@ extension ViewController {
                                 foundAnimalN = item["animal"] as? String
                                 foundAnimalD = item["dieta"] as? String
                                 foundAnimalH = item["habitat"] as? String
+                                foundAnimalU = item["url"] as? String
                                 encontrar = true
                                 break
                             }
@@ -159,6 +163,12 @@ extension ViewController {
                         }
                     }
                     if(foundAnimals != nil){
+                        
+                        let sUrl = foundAnimalU
+                        let url = URL(string: sUrl!)
+                        let imagenData = NSData(contentsOf: url!)
+                        self.pUrlImagen = UIImage(data: imagenData! as Data)
+                        
                         self.labelResults = foundAnimals
                         self.pAnimal = foundAnimalN
                         self.pDieta = foundAnimalD
@@ -168,13 +178,14 @@ extension ViewController {
                         self.pAnimal = nil
                         self.pDieta = nil
                         self.pHabitat = nil
+                        self.pUrlImagen = nil
                     }
                 } else {
                     self.labelResults = nil
                 }
             }
             print(self.pAnimal)
-            print("Analycing")
+            print("Analyzing")
             if(self.pAnimal != nil){
                 self.performSegue(withIdentifier: "pasaFoto", sender: nil)
             }else{
@@ -195,6 +206,7 @@ extension ViewController {
             createRequest(with: binaryImageData)
         }
         dismiss(animated: true, completion: nil)
+        spiner.startAnimating()
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
