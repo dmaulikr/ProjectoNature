@@ -173,16 +173,16 @@ extension ViewController {
                     self.labelResults = nil
                 }
             }
+            print(self.pAnimal)
+            print("Analycing")
+            if(self.pAnimal != nil){
+                self.performSegue(withIdentifier: "pasaFoto", sender: nil)
+            }else{
+                let alerta = UIAlertController(title: "No Animals Found", message: "Please Take Another Picture", preferredStyle: .alert)
+                alerta.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+                self.present(alerta, animated: true, completion: nil)
+            }
         })
-        print(self.pAnimal)
-        print("Analycing")
-        if(self.pAnimal != nil){
-            self.performSegue(withIdentifier: "pasaFoto", sender: nil)
-        }else{
-            let alerta = UIAlertController(title: "No Animals Found", message: "Please Take Another Picture", preferredStyle: .alert)
-            alerta.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-            present(alerta, animated: true, completion: nil)
-        }
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
