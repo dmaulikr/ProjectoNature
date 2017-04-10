@@ -16,6 +16,7 @@
 		44444ECC1E88A376004F53F2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44444ECB1E88A376004F53F2 /* CameraViewController.swift */; };
 		44444ECE1E8F5112004F53F2 /* DatosAnimalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44444ECD1E8F5112004F53F2 /* DatosAnimalesViewController.swift */; };
 		44582E171E9B4C44000A1B94 /* Property-List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44582E161E9B4C44000A1B94 /* Property-List.plist */; };
+		44582E191E9C34C9000A1B94 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44582E181E9C34C9000A1B94 /* Reachability.swift */; };
 		4497A60A1E8F7352005C3394 /* CapturasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A6091E8F7352005C3394 /* CapturasViewController.swift */; };
 		4497A60C1E8F7E6C005C3394 /* AnimalNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A60B1E8F7E6C005C3394 /* AnimalNSObject.swift */; };
 		4497A60F1E8F83A1005C3394 /* CapturaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497A60E1E8F83A1005C3394 /* CapturaTableViewCell.swift */; };
@@ -58,6 +59,7 @@
 		44444ECB1E88A376004F53F2 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		44444ECD1E8F5112004F53F2 /* DatosAnimalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosAnimalesViewController.swift; sourceTree = "<group>"; };
 		44582E161E9B4C44000A1B94 /* Property-List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property-List.plist"; sourceTree = "<group>"; };
+		44582E181E9C34C9000A1B94 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		4497A6091E8F7352005C3394 /* CapturasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturasViewController.swift; sourceTree = "<group>"; };
 		4497A60B1E8F7E6C005C3394 /* AnimalNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalNSObject.swift; sourceTree = "<group>"; };
 		4497A60E1E8F83A1005C3394 /* CapturaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturaTableViewCell.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				442E2FD01E66025A00C6BA81 /* AppDelegate.swift */,
 				442E2FD21E66025A00C6BA81 /* ViewController.swift */,
 				4497A60B1E8F7E6C005C3394 /* AnimalNSObject.swift */,
+				44582E181E9C34C9000A1B94 /* Reachability.swift */,
 				4497A61A1E9065B1005C3394 /* AIRealObject.swift */,
 				44582E161E9B4C44000A1B94 /* Property-List.plist */,
 				442E2FD41E66025A00C6BA81 /* Main.storyboard */,
@@ -307,6 +310,7 @@
 				44A127461E8F5BA1005D5455 /* CapturasTableViewController.swift in Sources */,
 				4497A60F1E8F83A1005C3394 /* CapturaTableViewCell.swift in Sources */,
 				442E2FD11E66025A00C6BA81 /* AppDelegate.swift in Sources */,
+				44582E191E9C34C9000A1B94 /* Reachability.swift in Sources */,
 				44444ECC1E88A376004F53F2 /* CameraViewController.swift in Sources */,
 				4497A60C1E8F7E6C005C3394 /* AnimalNSObject.swift in Sources */,
 				44444ECA1E889593004F53F2 /* PhotoViewController.swift in Sources */,

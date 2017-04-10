@@ -34,8 +34,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidLoad() {
         super.viewDidLoad()
         imagenEscondida.isHidden = true
-        let filepath = Bundle.main.path(forResource: "Property-List", ofType: "plist")
-        let items = NSArray(contentsOfFile: filepath!) as! [[String:AnyObject]]
+//        let filepath = Bundle.main.path(forResource: "Property-List", ofType: "plist")
+//        let items = NSArray(contentsOfFile: filepath!) as! [[String:AnyObject]]
         spiner.hidesWhenStopped = true
     }
     
@@ -45,13 +45,20 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func tomarFoto(_ sender: UIButton) {
-        if (UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.camera)){
-            
-            let imagePicker = UIImagePickerController()
-            imagePicker.delegate = self
-            imagePicker.sourceType = UIImagePickerControllerSourceType.camera
-            imagePicker.allowsEditing = true
-            self.present(imagePicker, animated: true, completion: nil)
+        
+        if currentReachabilityStatus == .reachableViaWiFi || currentReachabilityStatus == .reachableViaWWAN{
+            if (UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.camera)){
+                
+                let imagePicker = UIImagePickerController()
+                imagePicker.delegate = self
+                imagePicker.sourceType = UIImagePickerControllerSourceType.camera
+                imagePicker.allowsEditing = true
+                self.present(imagePicker, animated: true, completion: nil)
+            }
+        }else{
+            let alerta = UIAlertController(title: "No Internet Connection", message: "Please Try Connecting to a Network", preferredStyle: .alert)
+            alerta.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+            self.present(alerta, animated: true, completion: nil)
         }
     }
     
